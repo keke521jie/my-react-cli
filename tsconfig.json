@@ -1,12 +1,18 @@
 {
-    "compilerOptions": {
-      "outDir": "./dist/",
-      "noImplicitAny": true,
-      "module": "es6",
-      "target": "es5",
-      "jsx": "react",
-      "allowJs": true,
-      "moduleResolution": "node",
-      "allowSyntheticDefaultImports": true
-    }
-  }
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+  "typeRoots": ["./types"],
+  // "include": [
+  //   "src/**/*.ts", // 包含所有 .ts 文件
+  //   "src/**/*.tsx",
+  //   "src/**/*.svg" // 包含所有 .svg 文件
+  // ]
+}

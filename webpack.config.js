@@ -33,6 +33,12 @@ module.exports = {
                 exclude: /node_modules/
             },
             {
+                test: /\.svg$/,
+                use: [
+                    'file-loader'
+                ],
+            },
+            {
                 test: /\.s[ac]ss$/i,
                 use: [
                     // 将 JS 字符串生成为 style 节点
